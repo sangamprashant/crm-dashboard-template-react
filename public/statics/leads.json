@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Prashant Srivastav",
+    "email": "se@gmail.com",
+    "date": ["12-02-2024", "14-02-2024"],
+    "type": "New Leads",
+    "people": [{ "adult": "2" }, { "children": "1" }],
+    "address": "123, ABC, DEF",
+    "phone": "1234567890",
+    "destination": "Bali"
+  },
+  {
+    "name": "Anita Sharma",
+    "email": "anita@gmail.com",
+    "date": ["15-03-2024", "18-03-2024"],
+    "type": "New Leads",
+    "people": [{ "adult": "3" }, { "children": "2" }],
+    "address": "456, GHI, JKL",
+    "phone": "9876543210",
+    "destination": "Paris"
+  },
+  {
+    "name": "Vikas Gupta",
+    "email": "vikas.gupta@example.com",
+    "date": ["20-03-2024", "25-03-2024"],
+    "type": "New Leads",
+    "people": [{ "adult": "4" }, { "children": "0" }],
+    "address": "678, PQR, STU",
+    "phone": "8765432109",
+    "destination": "New York"
+  },
+  {
+    "name": "Rahul Mehta",
+    "email": "rahul.mehta@example.com",
+    "date": ["10-04-2024", "12-04-2024"],
+    "type": "Attempted Contact (1)",
+    "people": [{ "adult": "1" }, { "children": "0" }],
+    "address": "789, MNO, PQR",
+    "phone": "9998887776",
+    "destination": "Dubai"
+  },
+  {
+    "name": "Sonia Kapoor",
+    "email": "sonia.kapoor@example.com",
+    "date": ["20-05-2024", "25-05-2024"],
+    "type": "Attempted Contact (1)",
+    "people": [{ "adult": "4" }, { "children": "2" }],
+    "address": "555, STU, VWX",
+    "phone": "9988776655",
+    "destination": "Maldives"
+  },
+  {
+    "name": "Rohit Agarwal",
+    "email": "rohit.agarwal@example.com",
+    "date": ["30-05-2024", "05-06-2024"],
+    "type": "Attempted Contact (1)",
+    "people": [{ "adult": "2" }, { "children": "1" }],
+    "address": "444, ABC, XYZ",
+    "phone": "8877665544",
+    "destination": "Turkey"
+  },
+  {
+    "name": "Amit Verma",
+    "email": "amit.verma@example.com",
+    "date": ["05-06-2024", "10-06-2024"],
+    "type": "Attempted Contact (2)",
+    "people": [{ "adult": "2" }, { "children": "0" }],
+    "address": "101, YZA, BCD",
+    "phone": "8877665544",
+    "destination": "Thailand"
+  },
+  {
+    "name": "Poonam Sinha",
+    "email": "poonam.sinha@example.com",
+    "date": ["15-06-2024", "20-06-2024"],
+    "type": "Attempted Contact (2)",
+    "people": [{ "adult": "1" }, { "children": "2" }],
+    "address": "909, RST, UVW",
+    "phone": "7766554433",
+    "destination": "Vietnam"
+  },
+  {
+    "name": "Kavita Nair",
+    "email": "kavita.nair@example.com",
+    "date": ["18-06-2024", "22-06-2024"],
+    "type": "Connected",
+    "people": [{ "adult": "3" }, { "children": "1" }],
+    "address": "303, EFG, HIJ",
+    "phone": "7766554433",
+    "destination": "Singapore"
+  },
+  {
+    "name": "Deepak Choudhary",
+    "email": "deepak.choudhary@example.com",
+    "date": ["20-07-2024", "25-07-2024"],
+    "type": "Payment Received",
+    "people": [{ "adult": "5" }, { "children": "2" }],
+    "address": "111, WXY, ZAB",
+    "phone": "4433221100",
+    "destination": "Switzerland"
+  },
+  {
+    "name": "Neha Tiwari",
+    "email": "neha.tiwari@example.com",
+    "date": ["25-07-2024", "30-07-2024"],
+    "type": "Not Interested",
+    "people": [{ "adult": "1" }, { "children": "0" }],
+    "address": "505, CDE, FGH",
+    "phone": "3322110099",
+    "destination": "London"
+  },
+  {
+    "name": "Arun Joshi",
+    "email": "arun.joshi@example.com",
+    "date": ["02-08-2024", "06-08-2024"],
+    "type": "Prospect",
+    "people": [{ "adult": "2" }, { "children": "1" }],
+    "address": "666, XYZ, MNO",
+    "phone": "2211009988",
+    "destination": "Canada"
+  },
+  {
+    "name": "Sunil Dutta",
+    "email": "sunil.dutta@example.com",
+    "date": ["10-08-2024", "15-08-2024"],
+    "type": "Hot Leads",
+    "people": [{ "adult": "3" }, { "children": "0" }],
+    "address": "777, ABC, DEF",
+    "phone": "1100998877",
+    "destination": "France"
+  },
+  {
+    "name": "Megha Sharma",
+    "email": "megha.sharma@example.com",
+    "date": ["12-08-2024", "18-08-2024"],
+    "type": "Hot Leads",
+    "people": [{ "adult": "2" }, { "children": "2" }],
+    "address": "888, HIJ, KLM",
+    "phone": "0099887766",
+    "destination": "Australia"
+  },
+  {
+    "name": "Rajesh Khanna",
+    "email": "rajesh.khanna@example.com",
+    "date": ["05-09-2024", "10-09-2024"],
+    "type": "New Leads",
+    "people": [{ "adult": "2" }, { "children": "1" }],
+    "address": "111, ABC, LMN",
+    "phone": "9988771122",
+    "destination": "Dubai"
+  },
+  {
+    "name": "Swati Verma",
+    "email": "swati.verma@example.com",
+    "date": ["12-09-2024", "16-09-2024"],
+    "type": "Attempted Contact (1)",
+    "people": [{ "adult": "3" }, { "children": "0" }],
+    "address": "222, PQR, XYZ",
+    "phone": "8899772233",
+    "destination": "Japan"
+  },
+  {
+    "name": "Anurag Tiwari",
+    "email": "anurag.tiwari@example.com",
+    "date": ["20-09-2024", "25-09-2024"],
+    "type": "Attempted Contact (2)",
+    "people": [{ "adult": "1" }, { "children": "1" }],
+    "address": "333, HIJ, STU",
+    "phone": "7766883344",
+    "destination": "Bali"
+  },
+  {
+    "name": "Priya Malhotra",
+    "email": "priya.malhotra@example.com",
+    "date": ["01-10-2024", "06-10-2024"],
+    "type": "Connected",
+    "people": [{ "adult": "4" }, { "children": "2" }],
+    "address": "444, UVW, RST",
+    "phone": "6655778899",
+    "destination": "Switzerland"
+  },
+  {
+    "name": "Kunal Singh",
+    "email": "kunal.singh@example.com",
+    "date": ["10-10-2024", "15-10-2024"],
+    "type": "Payment Received",
+    "people": [{ "adult": "2" }, { "children": "0" }],
+    "address": "555, CDE, OPQ",
+    "phone": "5544332211",
+    "destination": "Germany"
+  },
+  {
+    "name": "Reema Joshi",
+    "email": "reema.joshi@example.com",
+    "date": ["18-10-2024", "22-10-2024"],
+    "type": "Not Interested",
+    "people": [{ "adult": "1" }, { "children": "1" }],
+    "address": "666, VWX, YZA",
+    "phone": "4433221100",
+    "destination": "Italy"
+  },
+  {
+    "name": "Sameer Kapoor",
+    "email": "sameer.kapoor@example.com",
+    "date": ["25-10-2024", "30-10-2024"],
+    "type": "Prospect",
+    "people": [{ "adult": "3" }, { "children": "2" }],
+    "address": "777, HIJ, LMN",
+    "phone": "3322110099",
+    "destination": "Thailand"
+  },
+  {
+    "name": "Neetu Yadav",
+    "email": "neetu.yadav@example.com",
+    "date": ["05-11-2024", "10-11-2024"],
+    "type": "Hot Leads",
+    "people": [{ "adult": "4" }, { "children": "1" }],
+    "address": "888, ABC, XYZ",
+    "phone": "2211009988",
+    "destination": "Greece"
+  },
+  {
+    "name": "Ravi Saxena",
+    "email": "ravi.saxena@example.com",
+    "date": ["12-11-2024", "18-11-2024"],
+    "type": "Hot Leads",
+    "people": [{ "adult": "2" }, { "children": "2" }],
+    "address": "999, STU, OPQ",
+    "phone": "1100998877",
+    "destination": "Malaysia"
+  },
+  {
+    "name": "Manisha Gupta",
+    "email": "manisha.gupta@example.com",
+    "date": ["20-11-2024", "25-11-2024"],
+    "type": "Payment Received",
+    "people": [{ "adult": "5" }, { "children": "2" }],
+    "address": "123, RST, XYZ",
+    "phone": "0099887766",
+    "destination": "Spain"
+  }
+]
