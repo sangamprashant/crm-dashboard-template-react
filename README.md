@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# 📊 React-Vite Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Dashboard Preview](./assets/1.png)
 
-Currently, two official plugins are available:
+## 🚀 Overview
+This is a **fully responsive** dashboard built using **React, Vite, TypeScript, and Tailwind CSS**. It provides a sleek and modern UI for analytics, user management, and real-time updates. Anyone can use it for their project or clone and customize it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Live Demo
+🔗 **[View Live Dashboard](https://your-live-demo-link.com)**  
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **React** + **Vite** for fast development
+- **TypeScript** for better type safety
+- **Tailwind CSS** for responsive and modern styling
+- **Ant Design** for UI components (optional)
+- **Recharts** for data visualization (graphs & charts)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🎨 Features
+✅ **Responsive Layout** – Works on mobile, tablet, and desktop  
+✅ **Modern UI** – Clean and user-friendly interface  
+✅ **Dashboard Widgets** – Analytics, user stats, and reports  
+✅ **Charts & Graphs** – Visual representation of data  
+✅ **Reusable Components** – Easily extend for new features  
 
-- Configure the top-level `parserOptions` property like this:
+## 📸 Screenshot
+![Dashboard Screenshot](./assets/4.png)
+![Dashboard Screenshot](./assets/3.png)
+![Dashboard Screenshot](./assets/2.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠 Installation & Setup
+1️⃣ **Clone the repository**
+```sh
+git clone https://github.com/sangamprashant/crm-dashboard-template-react.git
+```
+2️⃣ **Navigate to the project folder**
+```sh
+cd dashboard-template-react
+```
+3️⃣ **Install dependencies**
+```sh
+yarn install  # or npm install
+```
+4️⃣ **Run the development server**
+```sh
+yarn dev  # or npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📌 Usage
+- Modify `src/components/` to customize UI elements.
+- Update `src/pages/Dashboard.tsx` to add new widgets.
+- Use `src/hooks/` for managing data fetching & state.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📢 Contributing
+Feel free to contribute by opening **issues** or **pull requests**!
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+### 🌟 **Star this repo if you like it!** ⭐

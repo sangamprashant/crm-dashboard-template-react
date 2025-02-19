@@ -28,11 +28,13 @@ function Login() {
                     aria-hidden="true"
                 />
                 <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
-                    <div className="text-center text-white px-12">
-                        <h2 className="text-4xl font-bold mb-6">Admin Access Portal</h2>
-                        <p className="text-xl">Only authorized personnel can access this panel. Ensure secure login credentials.</p>
+                    <div className="text-center text-white px-8 py-6 bg-black/70 rounded-lg shadow-lg max-w-md">
+                        <h2 className="text-4xl font-bold mb-4">Admin Access Portal</h2>
+                        <p className="text-lg mb-3">Only authorized personnel can access this panel. Ensure secure login credentials.</p>
+                        <p className="text-red-500 text-lg font-semibold">This is a sample. Enter a valid email and password to access the dashboard.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     );
