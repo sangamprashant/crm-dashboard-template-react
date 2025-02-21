@@ -6,7 +6,10 @@
 This is a **fully responsive** dashboard built using **React, Vite, TypeScript, and Tailwind CSS**. It provides a sleek and modern UI for analytics, user management, and real-time updates. Anyone can use it for their project or clone and customize it.
 
 ## 🌍 Live Demo
-🔗 **[View Live Dashboard](https://your-live-demo-link.com)**  
+🔗 **[View Live Dashboard](https://template.dashboard.techorbitals.in)**  
+
+
+- To log in, enter a valid email and a randomly generated password of at least 6 characters.
 
 ## 🛠 Tech Stack
 - **React** + **Vite** for fast development
@@ -23,9 +26,9 @@ This is a **fully responsive** dashboard built using **React, Vite, TypeScript, 
 ✅ **Reusable Components** – Easily extend for new features  
 
 ## 📸 Screenshot
-![Dashboard Screenshot](./assets/4.png)
-![Dashboard Screenshot](./assets/3.png)
-![Dashboard Screenshot](./assets/2.png)
+![Login Page](./assets/4.png)  
+![Dashboard Overview](./assets/3.png)  
+![User Profile View](./assets/2.png)  
 
 ## 🛠 Installation & Setup
 1️⃣ **Clone the repository**

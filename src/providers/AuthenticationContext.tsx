@@ -5,8 +5,6 @@ import { ENV } from "../keys";
 const SECRET_KEY = ENV.secretKey;
 
 interface User {
-    id: string;
-    name: string;
     email: string;
 }
 
@@ -53,8 +51,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             if (
                 decryptedUser &&
                 typeof decryptedUser === "object" &&
-                decryptedUser.id &&
-                decryptedUser.name &&
                 decryptedUser.email
             ) {
                 setUser(decryptedUser);

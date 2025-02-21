@@ -15,7 +15,7 @@ const BookingSearch = () => {
     };
 
     return (
-        <>
+        <div className="p-2">
             <div className="flex justify-center mb-3">
                 <div className="w-full">
                     <Form
@@ -65,7 +65,7 @@ const BookingSearch = () => {
             </div>
             <Divider>Searched Items</Divider>
             <SearchedItems />
-        </>
+        </div>
     );
 };
 
