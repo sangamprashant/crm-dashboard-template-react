@@ -2,6 +2,8 @@ import { Avatar, Badge } from 'antd';
 import { BiUser } from "react-icons/bi";
 import { HiMenu } from "react-icons/hi";
 import { useSidebar } from "../../providers/SidebarContext";
+import { ImGithub } from "react-icons/im";
+import { Link } from 'react-router-dom';
 
 const Topbar = () => {
     const { toggleSidebar } = useSidebar()
@@ -11,9 +13,17 @@ const Topbar = () => {
                 <HiMenu size={24} />
             </button>
             <h1 className="text-lg font-semibold">Dashboard</h1>
-            <Badge count={10} >
-                <Avatar shape="circle" icon={<BiUser />} className="bg-white" />
-            </Badge>
+            <div className='flex gap-2'>
+                {/* let it be palced so that any one can react to the git repo */}
+                <Link to="https://github.com/sangamprashant/crm-dashboard-template-react" target='_blank'>
+                    <Badge count={0} className='cursor-pointer'>
+                        <Avatar shape="circle" icon={<ImGithub />} className="bg-white" />
+                    </Badge>
+                </Link>
+                <Badge count={10} >
+                    <Avatar shape="circle" icon={<BiUser />} className="bg-white" />
+                </Badge>
+            </div>
         </div>
     );
 };

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { LoginForm } from "./login/LoginForm";
 import { FaSignInAlt } from "react-icons/fa"; // React Icons
 
@@ -29,9 +30,10 @@ function Login() {
                 />
                 <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
                     <div className="text-center text-white px-8 py-6 bg-black/70 rounded-lg shadow-lg max-w-md">
-                        <h2 className="text-4xl font-bold mb-4">Admin Access Portal</h2>
+                        <h2 className="text-4xl font-bold mb-4 text-blue-500">Admin Access Portal</h2>
                         <p className="text-lg mb-3">Only authorized personnel can access this panel. Ensure secure login credentials.</p>
                         <p className="text-red-500 text-lg font-semibold">This is a sample. Enter a valid email and password to access the dashboard.</p>
+                        <Link to="https://github.com/sangamprashant/crm-dashboard-template-react" className="text-blue-500">Go to Git Repo</Link>
                     </div>
                 </div>
 
