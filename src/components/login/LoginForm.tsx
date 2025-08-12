@@ -68,6 +68,11 @@ export const LoginForm = () => {
                         "Sign In"
                     }
                 </button>
+
+                <p className="mt-3 text-sm text-gray-500 text-start">
+                    Use a password with at least <span className="font-semibold">6 characters</span>{" "}
+                    and make sure both password fields match.
+                </p>
             </form>
         </>
     )

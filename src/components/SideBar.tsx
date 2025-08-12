@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import {
-    HiOutlineChartBar, HiOutlineClipboardList, HiOutlineMail,
-    HiOutlineUsers, HiOutlineViewGrid, HiX
+    HiOutlineChartBar, HiOutlineCheckCircle, HiOutlineClipboardList, HiOutlineCreditCard,
+    HiOutlinePlusCircle,
+    HiOutlineSearch,
+    HiOutlineViewGrid, HiX
 } from "react-icons/hi";
-import { TbLogout2 } from "react-icons/tb";
 import { PiUserCircleGearLight } from "react-icons/pi";
+import { TbLogout2 } from "react-icons/tb";
 
+import { FaChevronDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useAuth } from "../providers/AuthenticationContext";
 import { useSidebar } from "../providers/SidebarContext";
@@ -13,8 +16,6 @@ import Logo from "./sidebar/Logo";
 import SideLinks from "./sidebar/SideLinks";
 import Title from "./sidebar/Title";
 import Topbar from "./sidebar/Topbar";
-import { LuLayoutTemplate } from "react-icons/lu";
-import { FaChevronDown } from "react-icons/fa";
 
 interface SideBarProps {
     children: React.ReactNode;
@@ -23,23 +24,15 @@ interface SideBarProps {
 // Sidebar Links
 const linksList = [
     { title: "Dashboard", link: "/dashboard", icon: <HiOutlineViewGrid size={22} /> },
-    { title: "Mail", link: "/mails", icon: <HiOutlineMail size={22} /> },
-    { title: "Leads", link: "/leads", icon: <HiOutlineUsers size={22} /> },
     {
         title: "Bookings", icon: <HiOutlineClipboardList size={22} />, subLinks: [
-            { title: "Search", link: "/bookings/search" },
-            { title: "Create Booking", link: "/bookings/create" },
-            { title: "Payment Received", link: "/templates/create" },
-            { title: "Completed", link: "/templates/create" },
+            { title: "Search", link: "/bookings/search", icon: <HiOutlineSearch size={18} /> },
+            { title: "Create Booking", link: "/bookings/create", icon: <HiOutlinePlusCircle size={18} /> },
+            { title: "Payment Received", link: "/bookings/payment", icon: <HiOutlineCreditCard size={18} /> },
+            { title: "Completed", link: "/bookings/completed", icon: <HiOutlineCheckCircle size={18} /> },
         ]
     },
     { title: "Analytics", link: "/analytics", icon: <HiOutlineChartBar size={22} /> },
-    {
-        title: "Templates", icon: <LuLayoutTemplate size={23} />, subLinks: [
-            { title: "Create a Template", link: "/templates/create" },
-            { title: "All Templates", link: '/templates/all' },
-        ]
-    }
 ];
 
 const Dashboard = ({ children }: SideBarProps) => {
