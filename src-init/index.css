@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --sidebar-width: 16rem; /* Default sidebar width */
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light;
+}
+
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* Adjust width as needed */
+  height: 3px; /* For horizontal scrollbars */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light gray background */
+  border-radius: 10px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker gray */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Even darker when hovered */
+}

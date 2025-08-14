@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist",
+    "reset-template": "node scripts/resetTemplate.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
