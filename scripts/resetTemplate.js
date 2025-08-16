@@ -5,18 +5,18 @@ const srcPath = path.resolve("src");
 const srcInitPath = path.resolve("src-init");
 const srcExamplePath = path.resolve("src-example");
 
-// If src exists, rename it to src-example
+// If src exists, copy it to src-example
 if (fs.existsSync(srcPath)) {
-  fs.renameSync(srcPath, srcExamplePath);
-  console.log("📦 Renamed 'src' → 'src-example'");
+  fs.cpSync(srcPath, srcExamplePath, { recursive: true });
+  console.log("📦 Created 'src-example' from 'src'");
 } else {
-  console.log("⚠️ 'src' not found, skipping rename to 'src-example'.");
+  console.log("⚠️ 'src' not found, skipping creation of 'src-example'.");
 }
 
-// If src-init exists, rename it to src
+// If src-init exists, copy it to src
 if (fs.existsSync(srcInitPath)) {
-  fs.renameSync(srcInitPath, srcPath);
-  console.log("✅ Renamed 'src-init' → 'src'");
+  fs.cpSync(srcInitPath, srcPath, { recursive: true });
+  console.log("✅ Created 'src' from 'src-init'");
 } else {
-  console.error("❌ 'src-init' not found. Cannot restore original source.");
+  console.error("❌ 'src-init' not found. Cannot create 'src'.");
 }
